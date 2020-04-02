@@ -2,8 +2,6 @@ import { TextStyle, Page, Layout, EmptyState, FooterHelp, Link, Card } from '@sh
 import { TitleBar, ResourcePicker } from '@shopify/app-bridge-react';
 import { useState } from 'react';
 
-const img = 'https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg'; 
-
 const Index = () => {
 
     const [open, setOpen] = useState(false);
@@ -26,11 +24,6 @@ const Index = () => {
             
         <Page>
 
-            <TitleBar
-                primaryAction={{
-                    content: 'Hola soy un primary action'
-                }}
-            />
             <ResourcePicker
                 resourceType="Product"
                 showVariants={false}
@@ -77,11 +70,7 @@ const Index = () => {
                         >
                         </EmptyState>
                     </Card>
-            </Layout.Section>
-            </Layout>
-
-            <Layout>
-                
+                </Layout.Section>
             </Layout>
 
             <FooterHelp>

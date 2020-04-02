@@ -113,7 +113,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const img = 'https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg';
 
 const Index = () => {
   const {
@@ -135,11 +134,7 @@ const Index = () => {
     console.log(productsSelected);
   };
 
-  return __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Page"], null, __jsx(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2__["TitleBar"], {
-    primaryAction: {
-      content: 'Hola soy un primary action'
-    }
-  }), __jsx(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2__["ResourcePicker"], {
+  return __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Page"], null, __jsx(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2__["ResourcePicker"], {
     resourceType: "Product",
     showVariants: false,
     open: open,
@@ -169,7 +164,7 @@ const Index = () => {
       content: 'Envíar productos a revisión',
       onAction: () => printProducts()
     }
-  })))), __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Layout"], null), __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["FooterHelp"], null, "Soy Ricardo", ' ', __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  })))), __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["FooterHelp"], null, "Soy Ricardo", ' ', __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     url: "https://help.shopify.com/manual/orders/fulfill-orders"
   }, "Rodr\xEDguez")));
 };
